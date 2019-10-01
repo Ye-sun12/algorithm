@@ -1,11 +1,16 @@
 def selectionSort(A, n):
-    for last in range(n,2,-1):
-        for num in range(last,1,-1):
-            fir = last
-            if A[fir] < A[num]:
-                fir = num
-            A[fir].change
-            print(A[last])
+    for last in range(n,0,-1):
+        max = last
+        b = A[last]
+        print(max,"max")
+        for num in range(last-1,-1,-1):
+            if A[num] > A[max]:
+                max = num
+        print(max,"max")
+        A[last] = A[max]
+        print(b,"b")
+        A[max] = b
+        print(A)
     return A
 
 a = [2,5,3,1]
