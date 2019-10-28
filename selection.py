@@ -5,12 +5,9 @@ def selectionSort(A, n):
         for num in range(last-1,-1,-1):
             if A[num] > A[max]:
                 max = num
-        print(max,"max")
-        A[last] = A[max]
-        print(b,"b")
-        A[max] = b
-        print(A)
+        A[last] = A[max]        
+        A[max] = b        
     return A
 
 a = [2,5,3,1]
-print(selectionSort(a,3))
+print(selectionSort(a,len(a)-1))

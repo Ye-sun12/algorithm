@@ -8,4 +8,4 @@ def insertion(A,n):
     return(A)
 
 list = [5,2,3,1]
-print(insertion(list,3))
+print(insertion(list,len(list)-1))

@@ -8,4 +8,4 @@ def bubble(A,n):
     return A
 
 list = [5,2,1,3]
-print(bubble(list,3))
+print(bubble(list,len(list)-1))
