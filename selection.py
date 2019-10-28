@@ -10,10 +10,4 @@ def selectionSort(A, n):
     return A
 
 a = [2,5,3,1]
-print(selectionSort(a,len(a)-1))
-        A[last] = A[max]
-        A[max] = b
-    return A
-
-a = [2,5,3,1]
 print(selectionSort(a,3))
